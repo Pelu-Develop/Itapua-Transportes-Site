@@ -1,0 +1,218 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Raleway, sans-serif;
+}
+
+body{
+    background-color: #D8C2C9;
+}
+
+.destacamento{
+    background-color: #c42333;
+    color: white;
+}
+
+.navbar {
+    background-color: #c42333;
+    margin-bottom: 3px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+    font-size: 25px;
+    margin: 0px 10px;
+
+}
+
+.off-style {
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    margin: 0px 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.sobre-imagem {
+    height: auto;
+    width: 50%;
+
+}
+
+.sobre-barra_vertical{
+
+    width: 20px;
+    height: 400px;
+    background-color: #c42333;
+}
+
+.sobre-titulo1 {
+    font-weight: bolder;
+    color: #c42333;
+    font-size: 40px;
+}
+
+.sobre-titulo2 {
+    font-weight: bolder;
+    color: #c42333;
+    font-size: 25px;
+}
+
+.sobre-descricao1 {
+    color: #c42333;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.sobre-descricao2 {
+    color: #c42333;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.principios-titulo {
+    font-size: 40px;
+    color: #c42333;
+    font-weight: bolder;
+}
+
+.principios-titulo2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #c42333;
+}
+
+.principios-descricao {
+    font-size: 17px;
+    color: #c42333;
+}
+
+.servicos {
+    background-color: #c42333;
+}
+
+.servicos-titulo {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.linha-horizontal {
+    margin: 0 auto;
+    background-color: white;
+    width: 500px;
+    height: 7px;
+}
+
+.flex2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-bottom:25px ;
+}
+
+.card-body{
+    background: whitesmoke;
+}
+
+.card-title{
+    color: #c42333 !important;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.card-text {
+    color: #c42333 ;
+}
+
+.contato {
+    position: relative;
+}
+
+.contato-imagem {
+    width: 100%;
+}
+
+.contato-titulo {
+    font-size: 40px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+.linha-horizontal_contato {
+    background-color: #c42333;
+    width: 375px;
+    height: 7px;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+.contato-titulo_telefones {
+    font-size: 32px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.contato-whatsapp_icon {
+    position: absolute;
+    width: 30px;
+    top: 15.5%;
+    left: 31%;
+}
+
+.contato-descricao_telefones1 {
+    font-size: 25px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.contato-descricao_telefones2 {
+    font-size: 25px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.contato-descricao_telefones3 {
+    font-size: 25px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.contato-descricao_telefones4 {
+    font-size: 25px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
