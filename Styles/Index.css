@@ -28,7 +28,15 @@ ul li {
     list-style: none;
     font-size: 25px;
     margin: 0px 10px;
+    transition: 0.7s;
 
+}
+
+ul li:hover {
+    padding: 10px;
+    background-color: #D8C2C9;
+    color: #c42333;
+    border-radius: 45px;
 }
 
 .off-style {
@@ -178,7 +186,7 @@ ul li {
     position: absolute;
     width: 30px;
     top: 15.5%;
-    left: 31%;
+    left: 26%;
 }
 
 .contato-descricao_telefones1 {
@@ -215,4 +223,25 @@ ul li {
     position: absolute;
     top: 35%;
     left: 5%;
+}
+
+.contato-descricao_email {
+    font-size: 25px;
+    color: #c42333;
+    font-weight: bolder;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.fixed {
+    position:relative;
+}
+
+.hover:hover {
+    padding: 10px;
+    background-color: #D8C2C9;
+    color: #c42333;
+    border-radius: 45px;
+    transition: 0.7s;
 }
